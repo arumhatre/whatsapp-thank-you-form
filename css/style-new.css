@@ -1,0 +1,177 @@
+@import url('../fonts/inter.css');
+@import url('../fonts/barlow_condensed.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body{font-family:Inter,sans-serif;font-size:16px;font-weight:400!important;color:#383838}
+*{font-family:Inter,sans-serif;font-weight:400}
+a:hover,
+a:active,
+a:focus{
+  text-decoration: none;
+}
+::-webkit-input-placeholder {
+    color: #626e77;
+    font-size: 0.81rem;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #626e77;
+    font-size: 0.81rem;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #626e77;
+    font-size: 0.81rem;
+}
+
+
+
+
+
+/*==========================================*/
+/* Form  css*/
+/*==========================================*/
+
+
+.font-500{font-weight:500!important}
+
+.form_head_text {
+    font-size: 28px;
+    line-height: normal;
+    font-weight: 700;
+    color: #0073ae;
+}
+
+.form-control{
+    width: 100%;
+    height: 50px;
+    outline: 0;
+    box-shadow: none;
+    border-color: #a6a8ab;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+.form_control_custom_lable {
+    display: block;
+    overflow: auto;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+}
+
+.book_btn {
+    width: 100%;
+    background: #ea1f27;
+    color: #ffffff;
+    padding: 5px 25px;
+    font-weight: 700;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+.form-check-label {
+    font-size: 12px;
+}
+
+
+
+@media (max-width:600px){
+    .contactFormHolder{
+        padding: 20px 5px;
+    }
+
+    .contactForm {
+        min-height: 100px;
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+        border-radius: 0;
+        padding: 20px;
+    }
+}
+
+
+
+/*==========================================*/
+/* Form Container css*/
+/*==========================================*/
+
+
+.form_container_one_bg{
+     background:  url(../images/form_container_one_bg_img.webp) no-repeat right top;
+     background-size: cover;
+}
+
+.form_container_two_bg{
+     background:  url(../images/form_container_two_bg_img.webp) no-repeat right bottom;
+     background-size: cover;
+}
+
+
+
+
+/*==========================================*/
+/* Why Dr Batra's css*/
+/*==========================================*/
+
+
+.main_heading_page{
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+
+.key_icon_box{margin-top:15px}
+.key_icon_box img{width:85px;height:85px}
+.key_icon_box p{margin-left:0;margin-bottom:0;display:flex}
+.key_icon_box p span{margin:auto 5px auto 12px;color:#ffffff; line-height: normal; font-weight: 300}
+.key_icon_box p span b{font-size:24px;font-weight:600}
+
+
+@media (max-width:600px){
+
+    .main_heading_page {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 900;
+}
+    .key_icon_box{margin-top:5px}
+     
+     .key_icon_box p span b{
+        font-size: 21px;
+     }
+    .key_icon_box img{width:75px;height:75px}
+
+    .key_icon_box p span {
+    margin: auto 5px auto 5px;
+    color: #ffffff;
+    line-height: normal;
+    font-weight: 300;
+}
+
+
+}
+
+
+/*==========================================*/
+/* Footer css*/
+/*==========================================*/
+.footer{background:#262626;color:#fff;font-size:13px;padding:20px 0;font-weight:500!important}
+.copyright{font-weight:500}
+.footerLink ul{padding:0;margin:0;list-style:none}
+.footerLink ul li{display:inline}
+.footerLink ul li a{display:inline-block;color:#fff;font-weight:500;padding:0 15px;position:relative}
+.footerLink ul li a:hover{text-decoration:none}
+.footerLink ul li a:after{content:"";height:100%;position:absolute;right:-5px;top:50%;width:5px;height:5px;display:inline-block;background:#fff;border-radius:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.footerLink ul li:last-child a:after{content:none;display:none}
+.social-media a{padding:5px;margin:0 5px;font-weight:500}
+@media screen and (max-width:600px){
+.footer{background:#262626;color:#fff;font-size:13px;padding:10px 0;font-weight:500!important;margin-bottom:60px}
+}
+
