@@ -26,6 +26,14 @@ a:focus{
     font-size: 0.81rem;
 }
 
+.main-all-heading{font-size:32px;font-weight:500;color:#212121;line-height:38px;margin-bottom:0}
+@media (max-width:1280px){
+.main-all-heading{font-size:26px;text-align:center;text-align:center;line-height:30px}
+}
+@media (max-width:768px){
+.main-all-heading{font-size:26px;text-align:center;text-align:center;line-height:30px}
+}
+
 /*==========================================*/
 /* Form  css*/
 /*==========================================*/
@@ -55,6 +63,99 @@ a:focus{
 .form_container_one_bg{background:url(../images/form_container_one_bg_img.webp) no-repeat right top;background-size:cover}
 .form_container_two_bg{background:url(../images/form_container_two_bg_img.webp) no-repeat right bottom;background-size:cover}
 
+
+/*==========================================*/
+/* Before After Slider css*/
+/*==========================================*/
+.real_result_sec_pad{padding-top:50px;padding-bottom:50px}
+.screenshot_slider .owl-item{padding:10px;display:inline-flex}
+.screenshot_slider .owl-dots{display:none}
+.content_test_div{background-color:#e0f3ff69;padding:70px 70px;box-shadow:0 2px 10px rgb(0 0 0 / 15%)}
+.screenshot_slider .owl-item img{width:50%;padding:50px 0;margin-right:-30px;z-index:9}
+.screenshot_slider .owl-item p{font-size:16px;margin-bottom:0}
+.screenshot_slider .owl-item h5{font-size:21px;padding-top:15px;margin-bottom:0;font-weight:600;color:#0073ae}
+.screenshot_slider .owl-item small{font-size:14px;color:#212121}
+.screenshot_slider .item{display:inline-flex}
+@media screen and (max-width:1920px) and (min-width:850px){
+.screenshot_slider .owl-next,.screenshot_slider .owl-prev{position:absolute;top:-5px;height:100%}
+.screenshot_slider .owl-prev{left:-10px}
+.screenshot_slider .owl-next{right:-10px}
+}
+@media (max-width:850px){
+.screenshot_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
+.screenshot_slider .owl-nav button{font-size:30px!important;margin:0 6px;color:#000!important}
+.screenshot_slider .owl-item{padding:0}
+}
+@media (max-width:600px){
+.real_result_sec_pad{padding-top:40px;padding-bottom:40px;}
+.content_test_div{background-color:#e0f3ff69;padding:30px 20px;box-shadow:none}
+.screenshot_slider .item{display:block}
+.screenshot_slider .owl-item img{width:100%;padding:0 15px;margin-right:0;margin-bottom:-30px;z-index:9}
+.screenshot_slider .owl-item p{font-size:16px;margin-top:20px}
+}
+
+
+/*==========================================*/
+/* Doctor Slider css*/
+/*==========================================*/
+
+.doctor_section{padding-bottom:40px}
+.doctorsContent h4{font-size:18px;font-weight:500;margin-bottom:5px;margin-top:10px}
+.doctorsContent h3{font-size:21px;font-weight:600;margin-bottom:5px}
+.doctor_slider .owl-item{padding:0 10px}
+.doctor_slider .owl-dots{display:none}
+.doctor_slider .owl-item img{width:100%}
+@media screen and (max-width:1920px) and (min-width:850px){
+.doctor_slider .owl-next,.doctor_slider .owl-prev{position:absolute;top:-5px;height:100%}
+.doctor_slider .owl-prev{left:-10px}
+.doctor_slider .owl-next{right:-10px}
+}
+@media (max-width:850px){
+.doctor_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
+.doctor_slider .owl-nav button{font-size:30px!important;margin:0 6px;color:#000!important}
+.doctor_slider .owl-item{padding:0}
+}
+@media (max-width:600px){
+.doctor_section{padding-bottom:40px}
+
+}
+
+
+/*==========================================*/
+/* Google rating Slider css*/
+/*==========================================*/
+
+.google_rating_slider_pad{
+    padding-bottom: 50px;
+}
+.googlerating_slider .owl-item{padding:0 10px}
+.googlerating_slider .owl-dots{display:none}
+.googlerating_slider .owl-item img{width:100%}
+@media screen and (max-width:1920px) and (min-width:850px){
+.googlerating_slider .owl-next,.googlerating_slider .owl-prev{position:absolute;top:-5px;height:100%}
+.googlerating_slider .owl-prev{left:-10px}
+.googlerating_slider .owl-next{right:-10px}
+}
+@media (max-width:850px){
+.googlerating_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
+.googlerating_slider .owl-nav button{font-size:30px!important;margin:0 6px;color:#000!important}
+.googlerating_slider .owl-item{padding:0}
+}
+
+.google-rating-box{height:260px;margin:15px 0;padding:20px 8px 0;background-color:#fff;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
+.google-rating-cls-para{padding-top:10px;font-size:16px;color:#636363}
+.google-rating-subheading{font-size:21px;font-weight:600;margin-bottom:0;padding-bottom:0}
+.google-rating-subheading small{font-weight:600;font-size:14px}
+.google-rating-small-title{font-weight:600;font-size:12px;color:#636363}
+@media screen and (max-width:600px){
+.google-rating-box{height:275px;margin:15px 0;padding:20px 8px 0;background-color:#fff;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
+.google_rating_slider_pad{
+    padding-bottom: 40px;
+}
+}
+
+
+
 /*==========================================*/
 /* Why Dr Batra's css*/
 /*==========================================*/
@@ -67,6 +168,13 @@ a:focus{
 .key_icon_box p span b{font-size:24px;font-weight:600}
 @media (max-width:1366px){
 .main_heading_page{font-size:45px;color:#fff;font-weight:900;margin-bottom:0}
+.key_icon_box p span b{font-size:21px;font-weight:600}
+.key_icon_box img{width: 75px;height: 75px;}
+.key_icon_box p span{
+    font-size: 16px ;
+    line-height: normal;
+    margin:auto 5px auto 5px;
+}
 }
 @media (max-width:768px){
 .main_heading_page{font-size:36px;color:#fff;font-weight:900}
@@ -77,6 +185,35 @@ a:focus{
 .key_icon_box img{width:75px;height:75px}
 .key_icon_box p span{margin:auto 5px auto 5px;color:#fff;line-height:normal;font-weight:300}
 }
+
+
+/*==========================================*/
+/* pop up css*/
+/*==========================================*/
+.box_for_pop_up{
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow:0 2px 5px rgba(0,0,0,.3);
+}
+
+/*========*/
+
+.modal-confirm{color:#636363;width:325px;font-size:14px}
+.modal-confirm .modal-content{padding:20px;border-radius:5px;border:none}
+.modal-confirm .modal-header{border-bottom:none;position:relative}
+.modal-confirm h4{text-align:center;font-size:24px;margin:30px 0 -15px;color:#212121}
+.modal-confirm p{color:#757575;font-weight:400}
+.modal-confirm .btn,.modal-confirm .form-control{min-height:40px;border-radius:3px}
+.modal-confirm .close{position:absolute;top:-5px;right:-5px}
+.modal-confirm .modal-footer{border:none;text-align:center;border-radius:5px;font-size:13px}
+.modal-confirm .icon-box{color:#fff;position:absolute;margin:0 auto;left:0;right:0;top:-70px;width:95px;height:95px;border-radius:50%;z-index:9;background:#82ce34;padding:15px;text-align:center;box-shadow:0 2px 2px rgba(0,0,0,.1)}
+.modal-confirm .icon-box i{font-size:35px;position:relative;top:7px}
+.modal-confirm.modal-dialog{margin:80px auto auto}
+.modal-confirm .btn{color:#fff;border-radius:4px;background:#82ce34;text-decoration:none;transition:all .4s;line-height:normal;border:none}
+.modal-confirm .btn:focus,.modal-confirm .btn:hover{background:#6fb32b;outline:0}
+.trigger-btn{display:inline-block;margin:100px auto}
+
 
 /*==========================================*/
 /* Footer css*/
@@ -91,6 +228,6 @@ a:focus{
 .footerLink ul li:last-child a:after{content:none;display:none}
 .social-media a{padding:5px;margin:0 5px;font-weight:500}
 @media screen and (max-width:600px){
-.footer{background:#262626;color:#fff;font-size:13px;padding:10px 0;font-weight:500!important;margin-bottom:60px}
+.footer{background:#262626;color:#fff;font-size:13px;padding:10px 0;font-weight:500!important;margin-bottom:0px}
 }
 
